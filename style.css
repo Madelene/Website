@@ -10,6 +10,7 @@ html {
   background-size: cover;
 }
 
+
 nav {
  padding-left: 140px;
   float: left;
@@ -20,6 +21,7 @@ nav {
   top: 15px;
 }
 
+/*my photo*/
 .front img {
     border-radius: 50%;
     border: solid #000000 5px;
@@ -71,8 +73,8 @@ div.headline {
   background-color: #A74CAB  ;
   border: solid #000000 5px;
   border-radius: 25px;
-  margin: 0 auto;
-  padding-bottom: 5px
+  margin-bottom: 15px;
+  padding-bottom: 10px
   top: 100px;
   left: 10px;
   max-width: 75%;
@@ -98,6 +100,7 @@ span#name{
   text-decoration: bold;
   color: white;
   margin-left: 25px;
+
 }
 
 span#line{
@@ -105,14 +108,15 @@ span#line{
   display: inline;
   word-spacing: 15px;
   color: white;
-  margin-left: 6em;
+  margin-left: 1em;
 }
 
 div.content {
   border: solid #000000 5px;
   background-color: #A74CAB;
   border-radius: 25px;
-  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: 12%;
   top: 120px;
   left: 10px;
   max-width: 75%;
@@ -145,7 +149,8 @@ div.content li#grid{
 }
 
 div.content img {
-    width: 125px;
+  width: 125px;
   height: 125px;
+  border-radius: 25px;
 }
 
